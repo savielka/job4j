@@ -1,5 +1,11 @@
 package ru.job4j.condition;
 
+/**
+ * Class DummyBot Глупый бот.
+ * @author savielka
+ * @since 06.03.2019
+ * @version 0.1
+ */
 public class DummyBot {
     /**
      * Отвечает на вопросы.
