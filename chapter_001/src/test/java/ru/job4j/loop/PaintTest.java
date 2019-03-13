@@ -22,4 +22,20 @@ public class PaintTest {
                 )
         );
     }
+
+    @Test
+    public void whenPyramid3Left() {
+        Paint paint = new Paint();
+        String rst = paint.pyramid(3);
+        System.out.println(rst);
+        assertThat(rst,
+                is(
+                        new StringJoiner(System.lineSeparator(), "", System.lineSeparator())
+                                .add("  ^  ")
+                                .add(" ^^^ ")
+                                .add("^^^^^")
+                                .toString()
+                )
+        );
+    }
 }
