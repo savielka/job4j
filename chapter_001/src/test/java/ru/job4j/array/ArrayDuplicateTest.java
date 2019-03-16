@@ -12,7 +12,6 @@ public class ArrayDuplicateTest {
         String[] input = new String[] {"Привет", "Мир", "Привет", "Супер", "Мир"};
         String[] result = arr.remove(input);
         String[] expect = new String[] {"Привет", "Мир", "Супер"};
-        //System.out.println(result);
         assertThat(result, is(expect));
     }
 }
